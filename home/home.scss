@@ -1,0 +1,58 @@
+page-home {
+
+    /* ion-content {
+      background: #f0f8ff !important; // changes color of one single page
+    } */
+
+    text-align: center;
+    text-align: justify;
+
+    h3 {
+      font-family: 'Allan', cursive; // custom google font
+    }
+
+    ion-card-content {
+      margin-left: -1px;
+      margin-top: 1px;
+      margin-bottom: 15px;
+    }
+
+    ion-card-title {
+      font-size: 16px !important;
+    }
+
+    .displayed {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ion-buttons {
+      order: 1;
+    }
+
+    ion-icon {
+      font-size: 40px;
+    }
+
+  .font-size-15 *{
+    font-size: 15px;
+  }
+
+  .font-size-16 *{
+    font-size: 16px;
+  }
+
+  .font-size-17 *{
+    font-size: 17px;
+  }
+
+  .font-size-18 *{
+    font-size: 18px;
+  }
+
+  ion-buttons {
+    order: 1;
+  }
+
+}

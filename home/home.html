@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="wcag_blue">
+    <ion-title>Home</ion-title>
+
+    <ion-buttons right>
+      <button ion-button [class.font-size-15]="size" (click)="decreaseFontSize()">
+        <ion-icon name="remove-circle" color="wcag_yellow"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons right>
+      <button ion-button [class.font-size-15]="size" (click)="increaseFontSize()">
+        <ion-icon name="add-circle" color="wcag_yellow"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <br>
+  <div text-center><img src="https://png.icons8.com/ultraviolet/50/000000/treasure-map.png">
+    <h3> Welcome to ABC! </h3></div>
+
+
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+        <div text-left>This is a really cool text</div>
+      </ion-card-title>
+
+      <p>&#10097; Test 1</p>
+      <p>&#10097; Test 2</p>
+      <p>&#10097; Test 3</p>
+
+    </ion-card-content>
+    <img class="displayed" width="50px" height="150px" src="/assets/imgs/home_map-image.png"/>
+  </ion-card>
+</ion-content>
